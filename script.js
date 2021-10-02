@@ -50,7 +50,7 @@ logado.innerHTML = `Olá ${userLogado.nome}`
 
 if(localStorage.getItem('token') == null){
   alert('Você precisa estar logado para acessar essa página')
-  window.location.href = 'https://cdpn.io/thicode/debug/ZELzYxV/nqkwvzJowRxA'
+  window.location.href = 'https://mariasatelier.github.io/Marias-atelier-login/'
 }
 
 
@@ -58,5 +58,5 @@ if(localStorage.getItem('token') == null){
 function sair(){
   localStorage.removeItem('token')
   localStorage.removeItem('userLogado')
-  window.location.href = 'https://cdpn.io/thicode/debug/ZELzYxV/nqkwvzJowRxA'
+  window.location.href = 'https://mariasatelier.github.io/Marias-atelier-inicio/'
 }
