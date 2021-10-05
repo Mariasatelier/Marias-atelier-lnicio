@@ -112,21 +112,11 @@ main {
 .mobile-menu.active .line3 {
   transform: rotate(45deg) translate(-5px, -7px);
 }
-.quadrado {
-  width: 500px;
-  height: 500px;
-  background: #f5dbf4;
-  border-radius: 500px;
-  position: absolute;
-  right: -80px;
-  top: 460px;
-}
 .slogan {
   margin-top: 10px;
   margin-left: 20px;
- font-size: 40px; 
+ font-size: 60px; 
   font-family: Segoe Print; 
-  width: 630px;
 }
 .sub-slogan {
  font-size: 60px;
@@ -151,12 +141,6 @@ button:hover{
   background-color: #000000;
   color: #fff;
 }
-.logoo {
-  width: 290px;
-  position: absolute;
-  right: 0px;
-  top: 540px;
-}
 .instagram1 {
   float: left;
   background-color: transparent;
@@ -165,9 +149,8 @@ button:hover{
   font-weight: bold;
   cursor: pointer;
   outline: none; 
-  position: absolute;
-  top: 760px;
-  left: 0px;
+  margin-top: 10px;
+  margin-left: 35px;
 }
 .instagram1:hover{
   background-color: #fff;
